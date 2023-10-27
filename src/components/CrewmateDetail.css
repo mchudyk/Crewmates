@@ -1,0 +1,39 @@
+.crewmate-detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007BFF; /* Highlight the name for better visibility */
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.gallery-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007BFF; /* Change this to your preferred button color */
+    color: #FFFFFF; /* This ensures text color contrasts with the button color */
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.gallery-button:hover {
+    background-color: #0056b3; /* A darker shade of the original button color for hover effect */
+}
